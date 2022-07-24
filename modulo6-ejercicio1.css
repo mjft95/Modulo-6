@@ -12,9 +12,8 @@
 .btn:hover {
     color: white;
     background-color: green;
-    content: "";
 }
 
-.btn:hover::after {
+.btn:hover::before {
     content: '¡Hecho!';
 }
